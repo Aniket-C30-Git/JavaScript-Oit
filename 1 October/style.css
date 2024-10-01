@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.my-style{
+    background-color: yellow;
+    padding: 30px;
+    font-size: 30px;
+    font-weight: 500;
+}
+.my-new-style{
+    background-color: navajowhite;
+    padding: 50px;
+}
