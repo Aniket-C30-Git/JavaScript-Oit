@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+</head>
+<body>
+    <div class="container">
+        <div class="boxes">
+        <div class="box-1">
+            <strong id="p1">Pay</strong>
+            <div class="icons">
+            <i class="ri-arrow-left-line"></i>
+            <i class="ri-question-line"></i>
+            </div>
+        </div>
+        <div class="box-2">
+            <input type="number" id="amt" placeholder="Enter amount">
+            <p id="balance-msg"></p>
+            <i id="rs-icon" class="ri-money-rupee-circle-line"></i>
+        </div>
+        <div class="box-3">
+            <input type="text" id="message" placeholder="Add a message (optional)">
+        </div>
+        <div class="box-4">
+            <h3 id="pay">Proeed to pay</h3>
+            <!-- <button id="navigate-btn"></button> -->
+        </div>
+        </div>
+    </div>
+    <!-- -------------------------------- -->
+    <div id="pin-panel" class="hidden">
+        <input type="password" id="pin" placeholder="ENTER 4-DIGIT UPI PIN">
+        <button id="send-amount-btn">Send Amount</button>
+    </div>
+    <!-- ---------------------------------- -->
+     
+</body>
+<script src="./script.js"></script>
+</html>
